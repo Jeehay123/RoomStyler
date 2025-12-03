@@ -1,0 +1,50 @@
+<style>
+  .root {
+    padding: 24px;
+    flex-direction: column;
+    gap: 16px;
+    width: 420px;
+  }
+
+  .title {
+    font-size: 26px;
+    font-weight: 700;
+    color: white;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    color: #d4d4d8;
+  }
+
+  .button-group {
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 8px;
+  }
+
+  .secondary-text {
+    font-size: 14px;
+    color: #a1a1aa;
+    margin-top: 4px;
+  }
+</style>
+
+<Panel class="root">
+  <h1 class="title">RoomWeaver – VR Interior Planner</h1>
+  <p class="subtitle">
+    Add and rearrange furniture blocks to prototype room layouts in VR.
+  </p>
+
+  <div class="button-group">
+    <Button id="add-bed-button">Add Bed</Button>
+    <Button id="add-desk-button">Add Desk</Button>
+    <Button id="clear-all-button" variant="secondary">
+      Clear All Furniture
+    </Button>
+  </div>
+
+  <p class="secondary-text">
+    Tip: Grab blocks with your controllers and move them around the floor.
+  </p>
+</Panel>
