@@ -1,0 +1,258 @@
+{
+  "element": {
+    "sourceTag": "panel",
+    "type": "custom",
+    "children": [
+      {
+        "sourceTag": "h1",
+        "type": "custom",
+        "children": [
+          "RoomWeaver – VR Interior Planner"
+        ],
+        "properties": {
+          "class": "title"
+        },
+        "dataUid": "uid-2"
+      },
+      {
+        "sourceTag": "p",
+        "type": "custom",
+        "children": [
+          "Add and rearrange furniture blocks to prototype room layouts in VR."
+        ],
+        "properties": {
+          "class": "subtitle"
+        },
+        "dataUid": "uid-3"
+      },
+      {
+        "type": "container",
+        "sourceTag": "div",
+        "children": [
+          {
+            "sourceTag": "button",
+            "type": "custom",
+            "children": [
+              "Add Bed"
+            ],
+            "properties": {
+              "id": "add-bed-button"
+            },
+            "dataUid": "uid-5"
+          },
+          {
+            "sourceTag": "button",
+            "type": "custom",
+            "children": [
+              "Add Desk"
+            ],
+            "properties": {
+              "id": "add-desk-button"
+            },
+            "dataUid": "uid-6"
+          },
+          {
+            "sourceTag": "button",
+            "type": "custom",
+            "children": [
+              "Clear All Furniture"
+            ],
+            "properties": {
+              "id": "clear-all-button",
+              "variant": "secondary"
+            },
+            "dataUid": "uid-7"
+          }
+        ],
+        "properties": {
+          "class": "button-group"
+        },
+        "dataUid": "uid-4"
+      },
+      {
+        "sourceTag": "p",
+        "type": "custom",
+        "children": [
+          "Tip: Grab blocks with your controllers and move them around the floor."
+        ],
+        "properties": {
+          "class": "secondary-text"
+        },
+        "dataUid": "uid-8"
+      }
+    ],
+    "properties": {
+      "class": "root"
+    },
+    "dataUid": "uid-1"
+  },
+  "classes": {
+    "root": {
+      "content": {
+        "padding": "24px",
+        "flexDirection": "column",
+        "gap": "16px",
+        "width": "420px"
+      }
+    },
+    "title": {
+      "content": {
+        "fontSize": "26px",
+        "fontWeight": "700",
+        "color": "white"
+      }
+    },
+    "subtitle": {
+      "content": {
+        "fontSize": "16px",
+        "color": "#d4d4d8"
+      }
+    },
+    "button-group": {
+      "content": {
+        "flexDirection": "column",
+        "gap": "8px",
+        "marginTop": "8px"
+      }
+    },
+    "secondary-text": {
+      "content": {
+        "fontSize": "14px",
+        "color": "#a1a1aa",
+        "marginTop": "4px"
+      }
+    }
+  },
+  "ranges": {
+    "root": {
+      "start": {
+        "line": 1,
+        "column": 2
+      },
+      "end": {
+        "line": 1,
+        "column": 7
+      }
+    },
+    "title": {
+      "start": {
+        "line": 8,
+        "column": 2
+      },
+      "end": {
+        "line": 8,
+        "column": 8
+      }
+    },
+    "subtitle": {
+      "start": {
+        "line": 14,
+        "column": 2
+      },
+      "end": {
+        "line": 14,
+        "column": 11
+      }
+    },
+    "button-group": {
+      "start": {
+        "line": 19,
+        "column": 2
+      },
+      "end": {
+        "line": 19,
+        "column": 15
+      }
+    },
+    "secondary-text": {
+      "start": {
+        "line": 25,
+        "column": 2
+      },
+      "end": {
+        "line": 25,
+        "column": 17
+      }
+    },
+    "uid-1": {
+      "start": {
+        "line": 32,
+        "column": 0
+      },
+      "end": {
+        "line": 49,
+        "column": 8
+      }
+    },
+    "uid-2": {
+      "start": {
+        "line": 33,
+        "column": 2
+      },
+      "end": {
+        "line": 33,
+        "column": 57
+      }
+    },
+    "uid-3": {
+      "start": {
+        "line": 34,
+        "column": 2
+      },
+      "end": {
+        "line": 36,
+        "column": 6
+      }
+    },
+    "uid-4": {
+      "start": {
+        "line": 38,
+        "column": 2
+      },
+      "end": {
+        "line": 44,
+        "column": 8
+      }
+    },
+    "uid-5": {
+      "start": {
+        "line": 39,
+        "column": 4
+      },
+      "end": {
+        "line": 39,
+        "column": 48
+      }
+    },
+    "uid-6": {
+      "start": {
+        "line": 40,
+        "column": 4
+      },
+      "end": {
+        "line": 40,
+        "column": 50
+      }
+    },
+    "uid-7": {
+      "start": {
+        "line": 41,
+        "column": 4
+      },
+      "end": {
+        "line": 43,
+        "column": 13
+      }
+    },
+    "uid-8": {
+      "start": {
+        "line": 46,
+        "column": 2
+      },
+      "end": {
+        "line": 48,
+        "column": 6
+      }
+    }
+  }
+}
